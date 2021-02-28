@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/login_bg.jpg') no-repeat;
+    background-size: cover;
+}
+.fr{
+    float: right;
+}
+.logo {
+    margin-top: 20px;
+}
+
+.iptBox {
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.ipt_header {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.login, .reg {
+    padding: 0 30px;
+}
+
+.reg {
+    display: none;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 35px;
+}
+
+.layui-btn {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}
