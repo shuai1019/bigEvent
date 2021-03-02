@@ -62,7 +62,7 @@ function renderUserInfo(res) {
         $('.text_avatar').show().html(first)
 
     } else {
-        $('.layui-nav-img').show()
+        $('.layui-nav-img').attr('src',res.data.user_pic).show()
         $('.text_avatar').hide()
     }
 }

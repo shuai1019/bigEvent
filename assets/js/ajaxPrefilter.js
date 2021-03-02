@@ -16,7 +16,7 @@ $.ajaxPrefilter(function (options) {
       // 控制用户的访问权限，在地址栏中直接输入index页面，如果服务器返回的数据中 "status":1,"message":"身份认证失败！" 不让其跳转到index页面
       // console.log(res.response);
       // res.responseJSON获取后台返回的数据
-      console.log(res.responseJSON);
+      // console.log(res.responseJSON);
       if (res.responseJSON.status === 1 && res.responseJSON.message==="身份认证失败！") {
         // 强制清空后台存储的token数据
         localStorage.removeItem('token')
